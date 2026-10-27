@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: #eef6f7;
+}
+
+header{
+    background: #00d8ff;
+    text-align: center;
+    padding:25px;
+}
+
+header h1{
+    color: #111;
+}
+
+nav{
+    background: #f6d9d9;
+    display:flex;
+    justify-content: center;
+    position:sticky;
+    top:0;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding:15px 30px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background: #00d8ff;
+}
+
+.container{
+    display:flex;
+    gap:20px;
+    padding:20px;
+}
+
+.content{
+    flex:3;
+    background: lightyellow;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0, 1);
+}
+
+.sidebar{
+    flex:1;
+    background: #1de9b6;
+    padding:20px;
+    border-radius: 10px;
+}
+
+.sidebar ul{
+    margin-left: 20px;
+}
+
+form{
+    width:500px;
+    margin:20px auto;
+    background: white;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0, 1);
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background: #2196f3;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table{
+    width:100%;
+    margin:20px auto;
+    border-collapse: collapse;
+}
+
+th{
+    background: #0066ff;
+    color:white;
+    padding:10px;
+}
+
+td{
+    border:1px solid #ddd;
+    padding:10px;
+    text-align: center;
+}
+
+.profile{
+    width:700px;
+    margin:20px auto;
+    display:flex;
+    gap:20px;
+    background: white;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0, 1);
+}
+
+.photo{
+    width: 450px;
+    height: 150px;
+    border-radius: 100%;
+    background: #ccc;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+footer{
+    margin-top: 20px;
+    text-align: center;
+    background: #c9b15d;
+    padding:15px;
+}
